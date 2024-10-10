@@ -1,3 +1,5 @@
+// noinspection JSValidateTypes
+
 /*!
   * Bootstrap v5.1.3 (https://getbootstrap.com/)
   * Copyright 2011-2021 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
@@ -2083,8 +2085,7 @@
   }
 
   // import { isHTMLElement } from './instanceOf';
-  function getBoundingClientRect(element, // eslint-disable-next-line unused-imports/no-unused-vars
-  includeScale) {
+  function getBoundingClientRect(element) {
 
     var rect = element.getBoundingClientRect();
     var scaleX = 1;
